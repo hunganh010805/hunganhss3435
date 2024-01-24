@@ -1,0 +1,15 @@
+let li1 = document.createElement("li");
+let li2 = document.createElement("li");
+let li3 = document.createElement("li");
+li1.innerHTML = "List item number 1";
+li2.innerHTML = "List item number 1";
+li3.innerHTML = "List item number 1";
+document.getElementById("list").appendChild(li1);
+document.getElementById("list").appendChild(li2);
+document.getElementById("list").appendChild(li3);
+li1.style.fontWeight = "bold";
+li2.style.fontWeight = "bold";
+li3.style.fontWeight = "bold";
+li1.style.fontSize = "50px";
+li2.style.fontSize = "50px";
+li3.style.fontSize = "50px";
